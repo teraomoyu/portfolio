@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Header from './components/header'
 import { Italiana } from "next/font/google";
+import React from 'react';
 
 const ItalianaFont = Italiana({
   weight: "400",
