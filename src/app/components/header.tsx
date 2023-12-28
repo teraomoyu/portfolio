@@ -1,18 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 import styles from './Header.module.css'
-import { Jacques_Francois } from "next/font/google";
+import { JacquesFrancoisFont } from "../fonts";
 
-const JacquesFrancoisFont = Jacques_Francois({
-  weight: "400",
-  subsets: ["latin"],
-});
-
-type HeaderProps = {
-  title: string
-}
-
-const Header = ({ title }: HeaderProps) => {
+const Header = () => {
   return (
     <header className={styles.header}>
       <nav>
