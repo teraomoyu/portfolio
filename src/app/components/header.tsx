@@ -6,8 +6,8 @@ import { JacquesFrancoisFont } from "../fonts";
 const Header = () => {
   return (
     <header className={styles.header}>
-      <nav>
-        <ul className={JacquesFrancoisFont.className}>
+      <nav className={styles.nav}>
+        <ul className={`${JacquesFrancoisFont.className} ${styles.ul}`}>
           <li>
             <Link href="/">
               Home
